@@ -1,0 +1,103 @@
+.header {
+    background-color: blueviolet;
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+    margin-top: 60px;
+}
+.information {
+    margin: 16px 0;
+    display: flex;
+    gap: 70px;
+    padding: 0 50px;
+} 
+.information-left {
+    flex: 1; 
+    text-align: left;
+}
+.information-item {
+    margin-bottom: 8px;
+}
+.information-item label {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+.information-item input, .information-item textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    outline: none;
+
+}
+.information-right {
+    flex: 1;
+    text-align: left;
+}
+
+.product {
+    padding: 0 60px;
+    position: relative;
+}
+.btnProduct {
+    border: 1px solid #333;
+    border-bottom: none;
+    border-radius: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: start;
+}
+.btnProduct::before {
+    content: '';
+    position: absolute;
+    background-color: #333;
+    top: 41px;
+    left: 10.5rem;
+    width: 83%;
+    height: 1px;
+}
+.group {
+    display: flex;
+    margin: 22px 0;
+    gap: 26px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 8px 26px;
+}
+.inputGroup input{
+    padding: 9px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    margin-right: 8px;
+    font-style: 18px;
+    outline: none;
+}
+.btnGroup .btnGroup-item {
+    background-color: aqua;
+    margin-right: 8px;
+    outline: aqua;
+}
+
+.table {
+    padding: 0 60px;
+    border-collapse: collapse;
+    
+}
+.table tbody td, .table thead th {
+    width: 75vw;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    margin-left: 60px;
+}
+.table-btn {
+    margin-top: 26px;
+    border-top: 1px solid #333;
+    text-align: right;
+}
+.table-btn button {
+    background-color: blueviolet;
+    color: #fff;
+    margin: 8px;
+    outline: blueviolet;
+}

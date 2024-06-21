@@ -1,0 +1,25 @@
+.header-layout2 {
+    height: 110px;
+    background-color: brown;
+}
+.nav-layout2 {
+    height: 40px;
+    background-color: chartreuse;
+}
+.section {
+    height: 200px;
+    background-color: blueviolet;
+}
+.artilce {
+    height: 200px;
+    background-color: burlywood;
+}
+.aside {
+    height: 400px;
+    background-color: cadetblue;
+    flex: 1;
+}
+.footer {
+    height: 110px;
+    background-color: black;
+}

@@ -1,0 +1,12 @@
+.posts {
+    display: flex;
+    gap: 16px;
+    margin-top: 50px;
+}
+.list {
+    text-align: left;
+    flex: 1;
+}
+.img {
+    width: 100%;
+}

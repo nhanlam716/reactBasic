@@ -1,0 +1,18 @@
+.header {
+    height: 150px;
+    background-color: yellow;
+}
+.navbar {
+    height: 300px;
+    background-color: red;
+    flex: 1;
+}
+.content {
+    height: 300px;
+    background-color: blue;
+    flex: 2;
+}
+.footer {
+    height: 100px;
+    background-color: black;
+}
